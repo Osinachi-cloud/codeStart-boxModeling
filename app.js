@@ -56,134 +56,39 @@
 
 // String methods
 
-// let firstName = "John";
-// let lastName = 'Doe';
-// let middleName = `Smith`;
-// let space = " ";
+let firstName = "John";
+let lastName = 'Doe';
+let middleName = `Smith`;
+let space = " ";
 
-// console.log(firstName);
-// console.log(lastName);
-// console.log(middleName);
+console.log(firstName);
+console.log(lastName);
+console.log(middleName);
 
-// conncartenation
+conncartenation
 
-// console.log(firstName + " " + lastName + " " + middleName);
-// console.log(`${firstName} ${lastName} ${middleName}`);
+console.log(firstName + " " + lastName + " " + middleName);
+console.log(`${firstName} ${lastName} ${middleName}`);
 
-// console.log(firstName.length);
-// console.log(firstName[1]);
-// console.log(firstName.charAt(2));
+console.log(firstName.length);
+console.log(firstName[1]);
+console.log(firstName.charAt(2));
 
-// console.log(firstName.toUpperCase());
-// console.log(lastName.toLowerCase());
+console.log(firstName.toUpperCase());
+console.log(lastName.toLowerCase());
 
-// console.log(firstName.startsWith("j"));
-// console.log(firstName.endsWith("n"));
+console.log(firstName.startsWith("j"));
+console.log(firstName.endsWith("n"));
 
-// console.log(firstName.includes("o"));
+console.log(firstName.includes("o"));
 
-// console.log(firstName.indexOf("h"));
+console.log(firstName.indexOf("h"));
 
-// let sentence = "I Love Yams";
-// console.log(sentence.replace("Yams", "Plantains"));
+let sentence = "I Love Yams";
+console.log(sentence.replace("Yams", "Plantains"));
 
-// let sentenceWhiteSpace = " I Love Yams ";
+let sentenceWhiteSpace = " I Love Yams ";
 
-// console.log(sentenceWhiteSpace);
-// console.log(sentenceWhiteSpace.trim());
-
-
-// let firstName = "Smith";
-// let lastName = "Doe";
-
-// function addTwoVals(){
-//     let val1 = 1;
-//     let val2 = 2;
-//     console.log(val1 + val2);
-// }
-
-// addTwoVals();
-
-// const addTwoNums = () => {
-//     let val1 = 4;
-//     let val2 = 2;
-//     console.log(val1 + val2);
-// }
-
-// addTwoNums();
-
-// const concartNames = () => {
-//     console.log(`${firstName} ${lastName}`);
-// }
-
-// concartNames();
-
-// const concartNameVal = (maidenName, middleName) => {
-//     console.log(`${maidenName} ${middleName}`);
-// }
-
-// concartNameVal("Rose", "Emmanuel");
-// concartNameVal("Daniela", "Owen");
-
-// const calcBMI = (mass, height) => {
-//     let bmi = mass / (height * height);
-//     console.log(bmi);
-// }
-
-// calcBMI(75,5);
-// calcBMI(100,2);
-// calcBMI(50,1.5);
-
-
-
-
-
-let gender = "No identity";
-
-if(gender == "male") {
-    console.log("Welcome Mr")
-} else if(gender == "female") {
-    console.log("welcome Mrs")
-} else {
-    console.log("not recognized");
-}
-
-let numberVal = 2;
-
-switch(numberVal){
-    case 2:
-        console.log("correct");
-        break;
-    case 10:
-        console.log("not correct");
-        break;
-    default:
-        console.log("default value");
-}
-
-let arrNames = ["Michael", "Gabriel", "Israel", "Raphael"];
-
-for(let i = 0; i < arrNames.length; i = i + 1){
-    console.log(arrNames[i]);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.log(sentenceWhiteSpace);
+console.log(sentenceWhiteSpace.trim());
 
