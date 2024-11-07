@@ -35,23 +35,29 @@
 // console.log(typeof(car));
 
 
-// Operators
 
-const previousBalance = 2;
-const deposit = 3;
-console.log(previousBalance + deposit);
 
-const currentBalance = 5;
-const withdrawal = 2;
 
-console.log(currentBalance - withdrawal);
+// ************* Naming convention ******************
 
-console.log(10 / 2);
-console.log(4 * 3);
-console.log(5 % 2);
-const value = 45;
-console.log(5 == 4);
-console.log(5 === "5");
+/**
+ * Rules in naming convention
+ * don't start with a number
+ * don't start with a symbol except the dollar sign "$" or underscore "_" like the examples below;
+ * */
+
+// accepted naming convention
+
+let accountBalance = 60; // camel case
+let account_balance = 50; // snake case
+let ACCOUNT_BALANCE = 40; // Pascal case
+let $accountBalance = 30;
+let _accountBalance = 20;
+let accountBalance1 = 10;
+
+
+
+
 
 
 
