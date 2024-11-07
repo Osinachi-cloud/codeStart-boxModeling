@@ -93,47 +93,79 @@
 // console.log(sentenceWhiteSpace.trim());
 
 
-let firstName = "Smith";
-let lastName = "Doe";
+// let firstName = "Smith";
+// let lastName = "Doe";
 
-function addTwoVals(){
-    let val1 = 1;
-    let val2 = 2;
-    console.log(val1 + val2);
+// function addTwoVals(){
+//     let val1 = 1;
+//     let val2 = 2;
+//     console.log(val1 + val2);
+// }
+
+// addTwoVals();
+
+// const addTwoNums = () => {
+//     let val1 = 4;
+//     let val2 = 2;
+//     console.log(val1 + val2);
+// }
+
+// addTwoNums();
+
+// const concartNames = () => {
+//     console.log(`${firstName} ${lastName}`);
+// }
+
+// concartNames();
+
+// const concartNameVal = (maidenName, middleName) => {
+//     console.log(`${maidenName} ${middleName}`);
+// }
+
+// concartNameVal("Rose", "Emmanuel");
+// concartNameVal("Daniela", "Owen");
+
+// const calcBMI = (mass, height) => {
+//     let bmi = mass / (height * height);
+//     console.log(bmi);
+// }
+
+// calcBMI(75,5);
+// calcBMI(100,2);
+// calcBMI(50,1.5);
+
+
+
+
+
+let gender = "No identity";
+
+if(gender == "male") {
+    console.log("Welcome Mr")
+} else if(gender == "female") {
+    console.log("welcome Mrs")
+} else {
+    console.log("not recognized");
 }
 
-addTwoVals();
+let numberVal = 2;
 
-const addTwoNums = () => {
-    let val1 = 4;
-    let val2 = 2;
-    console.log(val1 + val2);
+switch(numberVal){
+    case 2:
+        console.log("correct");
+        break;
+    case 10:
+        console.log("not correct");
+        break;
+    default:
+        console.log("default value");
 }
 
-addTwoNums();
+let arrNames = ["Michael", "Gabriel", "Israel", "Raphael"];
 
-const concartNames = () => {
-    console.log(`${firstName} ${lastName}`);
+for(let i = 0; i < arrNames.length; i = i + 1){
+    console.log(arrNames[i]);
 }
-
-concartNames();
-
-const concartNameVal = (maidenName, middleName) => {
-    console.log(`${maidenName} ${middleName}`);
-}
-
-concartNameVal("Rose", "Emmanuel");
-concartNameVal("Daniela", "Owen");
-
-const calcBMI = (mass, height) => {
-    let bmi = mass / (height * height);
-    console.log(bmi);
-}
-
-calcBMI(75,5);
-calcBMI(100,2);
-calcBMI(50,1.5);
-
 
 
 
